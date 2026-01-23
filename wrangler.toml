@@ -1,4 +1,4 @@
-name = "katelyatv"
+name = "ktv"
 compatibility_date = "2024-09-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
@@ -11,7 +11,7 @@ database_id = "8a53fed0-3512-4e84-9c01-de1e56e4858a"
 
 # 生产环境配置
 [env.production]
-name = "katelyatv"
+name = "ktv"
 
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
@@ -22,7 +22,7 @@ database_id = "8a53fed0-3512-4e84-9c01-de1e56e4858a"
 # 生产环境变量
 [env.production.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
+NEXT_PUBLIC_SITE_NAME = "KTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 NEXTAUTH_URL = "https://ktv.oak.qzz.io"
 USERNAME = "dami"
@@ -40,7 +40,7 @@ NODE_ENV = "production"
 
 # 预览环境配置
 [env.preview]
-name = "katelyatv-preview"
+name = "ktv-preview"
 
 # 预览环境 D1 数据库配置
 [[env.preview.d1_databases]]
@@ -51,7 +51,7 @@ database_id = "8a53fed0-3512-4e84-9c01-de1e56e4858a"
 # 预览环境变量
 [env.preview.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
+NEXT_PUBLIC_SITE_NAME = "KTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 NEXTAUTH_URL = "https://ktv.oak.qzz.io"
 USERNAME = "dami"
